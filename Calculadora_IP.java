@@ -23,6 +23,7 @@ public class Calculadora_IP {
 	}
 	public void subnet(){
 		this.red=get_Network();
+		System.out.println("Cuantas subnets Necesitas?");
 		int num=get_num();
 		this.redes(num);
 	}
