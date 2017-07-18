@@ -73,7 +73,7 @@ public class Calculadora_IP {
 	}
 	public static int get_num(){
 		Scanner Readerman = new Scanner(System.in);
-		return Readerman.nextInt();
+		return Integer.parseInt(Readerman.nextLine());
 	}
 	public static int verificador(int min,int max){
 		int num=-3;
